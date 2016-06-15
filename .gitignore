@@ -50,5 +50,9 @@ Temporary Items
 .gitignore.bak
 .svn
 .idea
+
 vendor
 wwwroot
+composer.lock
+phpunit.xml
+clover.xml
