@@ -19,7 +19,7 @@ GraceBase
 
 Composer
 ```
-composer require grace/base
+composer require grace/base 1.0.x-dev
 ```
 
 ## phpunit
