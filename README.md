@@ -24,9 +24,9 @@ composer require grace/base 1.0.x-dev
 
 ## phpunit
 
-phpunit命令
 ```
-phpunit
+phpunit tests/testBase
+phpunit tests/testSet
 ```
 
 ## 作者
