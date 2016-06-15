@@ -9,7 +9,6 @@ GraceBase
 
 - 简单的API
 - [RFC3986](http://tools.ietf.org/html/rfc3986) 编码规范
-- 全文档支持[文档](https://github.com/shampeak/GracePHP/tree/master/docs)
 - 组件框架无关[组件可以分离出来单独使用,有独立的文档和测试代码支持]；
 - Composer支持
 - 遵循[PSR-2](http://www.php-fig.org/psr/psr-2/)和[PSR-4](http://www.php-fig.org/psr/psr-4/)规范
