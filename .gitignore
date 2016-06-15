@@ -38,13 +38,14 @@ $RECYCLE.BIN/
 .AppleDesktop
 Network Trash Folder
 Temporary Items
+
 composer.lock
 vendor
 wwwroot
 phpunit.xml
 clover.xml
 .apdisk
-.gitignore.bak
+.bak
 .svn
 .idea
 
