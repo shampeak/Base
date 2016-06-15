@@ -16,21 +16,16 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
 # =========================
 # Operating System Files
 # =========================
-
 # OSX
 # =========================
-
 .DS_Store
 .AppleDouble
 .LSOverride
-
 # Thumbnails
 ._*
-
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
@@ -38,17 +33,21 @@ $RECYCLE.BIN/
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
-.apdisk
 
-
-.gitignore.bak
-.svn
-.idea
+# users
+.gitignore
+composer.lock
 vendor
 wwwroot
+phpunit.xml
+clover.xml
+.apdisk
+.bak
+.svn
+.idea
+
