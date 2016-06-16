@@ -10,39 +10,17 @@
         }
     ],
     "minimum-stability": "dev",
-
-
     "require-dev": {
-        "squizlabs/php_codesniffer": "^2.5",
+        "phpdocumentor/phpdocumentor": "2.*",
         "phpunit/phpunit": "^4.0"
-    },
-    "Suggests": {
-        "squizlabs/php_codesniffer": "^2.5",
-        "phpunit/phpunit": "^4.0"
-    },
-    "provide": {
-        "psr/http-message-implementation": "1.0"
-    },
-    "Conflicts": {
-        "psr/http-message-implementation": "1.0"
-    },
-    "Replaces": {
-        "psr/http-message-implementation": "1.0"
     },
 
 
 
 
     "require": {
-        "php" : "5.5.*",
-        "phpdocumentor/phpdocumentor": "2.*"
+        "php" : "5.5.*"
     },
-
-
-
-
-
-
     "autoload":{
         "psr-4":{
             "Grace\\": "src"
