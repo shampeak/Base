@@ -8,7 +8,7 @@
 
 ## 框架说明
 
-GraceBase
+Grace\Base
 
 > 通用的被继承
 
