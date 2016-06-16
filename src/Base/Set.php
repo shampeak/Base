@@ -7,13 +7,13 @@ class Set implements
 \Countable,
 \IteratorAggregate
 {
-      /*
+      /**
        * Key-value array of arbitrary data
        * @var array
        */
       private $data = array();
 
-      /*
+      /**
        * Normalize data key
        * @param  string $key The data key
        * @return mixed       The transformed/normalized data key
@@ -23,7 +23,7 @@ class Set implements
             return $key;
       }
 
-      /*
+      /**
        * Set data key to value
        * @param string $key   The data key
        * @param mixed  $value The data value
@@ -33,7 +33,7 @@ class Set implements
             $this->data[$this->normalizeKey($key)] = $value;
       }
 
-      /*
+      /**
        * Get data value with key
        * @param  string $key     The data key
        * @param  mixed  $default The value to return if data key does not exist
@@ -48,7 +48,7 @@ class Set implements
             return $default;
       }
 
-      /*
+      /**
        * Add data to set
        * @param array $items Key-value array of data to append to this set
        */
@@ -61,7 +61,7 @@ class Set implements
 
 
 
-      /*
+      /**
        * Does this set contain a key?
        * @param  string  $key The data key
        * @return boolean
@@ -71,7 +71,7 @@ class Set implements
             return array_key_exists($this->normalizeKey($key), $this->data);
       }
 
-      /*
+      /**
        * Remove value with key from this set
        * @param  string $key The data key
        */
@@ -80,7 +80,7 @@ class Set implements
             unset($this->data[$this->normalizeKey($key)]);
       }
 
-      /*
+      /**
        * Property Overloading
        */
       public function __get($key)
@@ -103,7 +103,7 @@ class Set implements
             return $this->remove($key);
       }
 
-      /*
+      /**
        * Clear all values
        */
       public function clear()
@@ -114,7 +114,7 @@ class Set implements
 
 
 
-      /*
+      /**
        * Array Access
        */
       public function offsetExists($offset)
@@ -136,11 +136,8 @@ class Set implements
       {
             $this->remove($offset);
       }
-      /*
-       * end Array Access
-       */
 
-      /*
+      /**
        * Countable ->Countable
        */
       public function count()
@@ -148,7 +145,7 @@ class Set implements
             return count($this->data);
       }
 
-      /*
+      /**
        * IteratorAggregate
        * foreach
        */
