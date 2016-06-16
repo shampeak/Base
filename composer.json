@@ -14,11 +14,8 @@
         "phpdocumentor/phpdocumentor": "2.*",
         "phpunit/phpunit": "^4.0"
     },
-
-
-
-
     "require": {
+        "phpdocumentor/phpdocumentor": "2.*",
         "php" : "5.5.*"
     },
     "autoload":{

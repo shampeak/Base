@@ -1,3 +1,11 @@
+[![Latest Stable Version](https://poser.pugx.org/grace/base/version)](https://packagist.org/packages/grace/base)
+[![Total Downloads](https://poser.pugx.org/grace/base/downloads)](https://packagist.org/packages/grace/base)
+[![Latest Unstable Version](https://poser.pugx.org/grace/base/v/unstable)](//packagist.org/packages/grace/base)
+[![License](https://poser.pugx.org/grace/base/license)](https://packagist.org/packages/grace/base)
+[![composer.lock available](https://poser.pugx.org/grace/base/composerlock)](https://packagist.org/packages/grace/base)
+
+
+
 ## 框架说明
 
 GraceBase
